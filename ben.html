@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente de Produits et Services</title>
+    <link rel="stylesheet" href="ben.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #242323;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            padding: 2rem;
+            background: white;
+            margin-top: 1rem;
+        }
+        .product, .service {
+            border: 1px solid #ddd;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #fff;
+        }
+        .product img, .service img {
+            max-width: 100%;
+        }
+        .product h2, .service h2 {
+            margin: 0 0 1rem;
+        }
+        .product p, .service p {
+            margin: 0 0 1rem;
+        }
+        .price {
+            font-size: 1.2rem;
+            color: green;
+        }
+        footer {
+            background-color: #242323;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header data-aos="fade-down">
+        <h1>Bienvenue à Notre Boutique en Ligne</h1>
+    </header>
+    <div class="container">
+        <div id="main">
+            <section class="product" data-aos="fade-up">
+                <h2>Produit 1</h2>
+                <img src="chemin/vers/image1.jpg" alt="Produit 1">
+                <p>Description du produit 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">Prix : 49,99€</p>
+                <button>Acheter</button>
+            </section>
+            <section class="product" data-aos="fade-up" data-aos-delay="100">
+                <h2>Produit 2</h2>
+                <img src="chemin/vers/image2.jpg" alt="Produit 2">
+                <p>Description du produit 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">Prix : 29,99€</p>
+                <button>Acheter</button>
+            </section>
+            <section class="service" data-aos="fade-up" data-aos-delay="200">
+                <h2>Service 1</h2>
+                <img src="chemin/vers/image3.jpg" alt="Service 1">
+                <p>Description du service 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">Tarif : 99,99€</p>
+                <button>Commander</button>
+            </section>
+            <section class="service" data-aos="fade-up" data-aos-delay="300">
+                <h2>Service 2</h2>
+                <img src="chemin/vers/image4.jpg" alt="Service 2">
+                <p>Description du service 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">Tarif : 79,99€</p>
+                <button>Commander</button>
+            </section>
+        </div>
+    </div>
+    <footer data-aos="fade-up">
+        <p>Contactez-nous : bengraphic360@gmail.com | +22896296160</p>
+        <p>&copy; 2024 Notre Boutique en Ligne. Tous droits réservés.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
